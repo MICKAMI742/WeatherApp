@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace WeatherApp.Models
 {
-    class Forecast
+    class TodaysForecast
     {
-
+        
     }
 }
