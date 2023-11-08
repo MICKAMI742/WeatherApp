@@ -15,6 +15,8 @@ namespace WeatherApp
         {
             Models.Location location = new Models.Location();
             Console.WriteLine(await location.GetLocationAsync());
+            Weather weather = new Weather();
+            Console.WriteLine(await weather.GetCurrentWeatherSync());
         }
     }
 }
