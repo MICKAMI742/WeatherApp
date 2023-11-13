@@ -12,8 +12,8 @@ namespace WeatherApp.Models
 {
     class Weather
     {
-        public string adress {  get; set; }
-        public DateTime date {  get; set; }
+        public string address {  get; set; }
+        public DateTime datetime {  get; set; }
         public int tempMax {  get; set; }
         public int tempMin { get; set; }
 
