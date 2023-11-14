@@ -14,9 +14,8 @@ namespace WeatherApp
         private async void Button_Clicked(object sender, EventArgs e)
         {
             Models.Location location = new Models.Location();
-            Console.WriteLine(await location.GetLocationAsync());
             Weather weather = new Weather();
-            Console.WriteLine(await weather.GetCurrentWeatherSync());
+            var response = await weather.GetCurrentWeatherSync(location);
         }
     }
 }
